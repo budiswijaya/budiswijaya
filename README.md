@@ -2,8 +2,6 @@
 
 ### **Aspiring Web Developer | Finance & Operations Background | Multilingual Problem-Solver**
 
-![Banner](https://github.com/budiswijaya/budiswijaya/blob/main/abstract-digital-light-trails-futuristic-energy-flow-background-dynamic-artwork-featuring-glowing-orange-blue-intertwined-369558553.jpg)
-
 ## About Me
 
 🌱 I'm currently transitioning into **tech**, bringing together my background in **finance operations**, **risk management**, and **cross-cultural collaboration** with a growing expertise in **web development**.
