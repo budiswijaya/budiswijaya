@@ -1,4 +1,4 @@
-# Hi, I'm [Budi] 👋
+# Hi, I'm Budi 👋
 
 ### **Aspiring Web Developer | Finance & Operations Background | Multilingual Problem-Solver**
 
