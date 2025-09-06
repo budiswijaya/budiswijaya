@@ -2,7 +2,7 @@
 
 ### **Aspiring Web Developer | Finance & Operations Background | Multilingual Problem-Solver**
 
-![Banner]()
+![Banner](https://github.com/budiswijaya/budiswijaya/blob/main/abstract-digital-light-trails-futuristic-energy-flow-background-dynamic-artwork-featuring-glowing-orange-blue-intertwined-369558553.jpg)
 
 ## About Me
 
