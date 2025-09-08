@@ -2,14 +2,13 @@
 
 ### **Aspiring Web Developer | Finance & Operations Background | Multilingual Problem-Solver**
 
-🌱 I'm currently transitioning into **tech**, bringing together my background in **finance operations**, **risk management**, and **cross-cultural collaboration** with a growing expertise in **web development**.
+🌱 I’m transitioning into **tech**, building on my experience in **finance operations**, **risk management**, and **process optimization** with a growing skillset in **web development**.
 
-💻 My career path spans finance, operations, and now technology — blending problem-solving, cultural adaptability, and a commitment to continuous learning. Having worked in fast-paced, high-volume environments, I’ve developed the ability to stay calm under pressure, think analytically, and deliver reliable results.
+💻 My path spans finance, operations, and technology — combining analytical problem-solving with cultural adaptability and a calm, focused approach under pressure. I’ve worked in fast-paced, high-volume environments where accuracy and reliability were critical, and I now apply the same discipline to coding projects.
 
-🌍 Having studied and worked across **Indonesia**, **China**, and the **Philippines**, I bring cultural adaptability, strong communication, and a commitment to continuous learning. Fluent in **Mandarin**, **English** I thrive in diverse, collaborative teams and enjoy bridging communication gaps between people, systems, and ideas.  
-I thrive in diverse teams and enjoy solving complex problems where technology and people intersect.
+🌍 Having studied and worked across **Indonesia**, **China**, and the **Philippines**, I bring cross-cultural awareness and strong communication skills. Fluent in **Mandarin**, **English**, and **Indonesian**, I enjoy bridging gaps between people, systems, and ideas.
 
-💡 Guided by the belief that **"nothing is impossible with persistence and focus,"** I bring discipline and adaptability to every challenge I take on.
+💡 Guided by the belief that **“with persistence and adaptability, any problem can be solved and any skill can be mastered,”** I aim to contribute to meaningful, tech-driven solutions that make a real impact.
 
 ## Languages and Tools:
 
