@@ -1,11 +1,11 @@
 function setTheme(theme) {
   localStorage.setItem("theme", theme);
 
-  // Update theme colors
+  // Update theme colors with darker default
   document.body.style.background =
-    theme === "dark" ? "hsla(0, 0%, 15%)" : "hsla(0, 0%, 98%)";
+    theme === "dark" ? "hsla(0, 0%, 15%)" : "hsla(50, 50%, 30%)";
   document.body.style.color =
-    theme === "dark" ? "hsla(0, 0%, 85%)" : "hsla(0, 0%, 15%)";
+    theme === "dark" ? "hsla(0, 0%, 85%)" : "hsla(0, 0%, 90%)";
 
   // Update active button state
   const buttons = document.querySelectorAll(".mode");
@@ -18,5 +18,5 @@ function setTheme(theme) {
   });
 }
 
-const savedTheme = localStorage.getItem("theme") || "light";
+const savedTheme = localStorage.getItem("theme") || "dark";
 setTheme(savedTheme);
