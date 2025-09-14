@@ -17,8 +17,8 @@
   --gray20: hsla(0, 0%, 20%);
   --gray30: hsla(0, 0%, 30%);
   --gray50: hsla(0, 0%, 50%);
-  --gray70: hsla(0, 0%, 70%);
-  --gray90: hsla(0, 0%, 90%);
+  --gray70: hsla(0, 0%, 85%);
+  --gray90: hsla(0, 0%, 95%);
   --white: #fff;
 
   /* Font-size family and Line Height */
@@ -63,9 +63,9 @@
   --border-radius: 10px;
 
   /* Add new variables */
-  --link-color: #64748b;
-  --link-hover: #3b82f6;
-  --text-primary: #334155;
+  --link-color: #4a5568;
+  --link-hover: #2563eb;
+  --text-primary: #1a202c;
 }
 
 /* Whole Structure Positionment */
@@ -92,7 +92,6 @@
 }
 
 /* Overall Style */
-
 .center-container {
   max-width: 768px;
   margin: 0 auto;
@@ -222,4 +221,33 @@ header p {
 .job .duration {
   color: var(--link-color);
   font-size: 0.875rem;
+}
+
+/* Theme toggle buttons */
+.mode-area {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.mode {
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  border: 2px solid var(--gray30);
+  border-radius: 8px;
+  background: var(--white);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mode:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mode.active {
+  background: var(--gray20);
+  border-color: var(--gray70);
 }
