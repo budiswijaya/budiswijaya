@@ -1,6 +1,6 @@
 # Hi, I'm Budi 👋
 
-### **Operations & Finance Professional Transitioning to Web Development | Disciplined Web Development Learner | Finance & Risk Management | Multilingual Problem-Solver**
+### **Operations & Finance Professional Transitioning to Fintech-Driven Solutions | Aspiring Fintech Developer | Finance & Risk Management | Multilingual Problem-Solver**
 
 🌱 I’m transitioning into **tech**, building on my experience in **high volume financial systems**, **risk analysis**, and **process optimization** with a growing skillset in **web and software development**. I aim to combine my financial background with technical skill to create tools that improve accuracy, efficiency, and collaboration.
 
