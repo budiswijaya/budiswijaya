@@ -38,7 +38,7 @@
 
 - 🛠️ Started with a basic foundation in **computer hardware/software troubleshooting/networking/repairing**.
 - 💼 Gained extensive experience managing **high volume financial systems**, **risk analysis**, and **process optimization**.
-- 🌐 Now pursuing a **career in web development**, currently learning through **freeCodeCamp** bootcamp and **Coding Compendium course by Phillip Choi / Let Phil** , focusing on **building projects** that matter to me. [Discord](https://discord.com/channels/1328534945848758282/1331598180122628096/1414608514994802822)
+- 🌐 Now pursuing a **career in web and software development**, currently learning through **freeCodeCamp** bootcamp and **Coding Compendium course by Phillip Choi / Let Phil** , focusing on **building projects** that matter to me. [Discord](https://discord.com/channels/1328534945848758282/1331598180122628096/1414608514994802822)
 
 ---
 
