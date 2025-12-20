@@ -68,6 +68,10 @@
   --text-primary: #1a202c;
 }
 
+body {
+  background: hsla(0, 0%, 70%);
+}
+
 /* Whole Structure Positionment */
 .grid-container {
   display: grid;
@@ -255,5 +259,4 @@ a {
 .mode.active {
   background: var(--gray20);
   border-color: var(--gray70);
-}
 }
