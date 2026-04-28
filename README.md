@@ -34,7 +34,7 @@
 - Postman
 - Git
 
-🔍 What I’m currently building (Finance-Project) Repositories
+## 🔍 What I’m currently building (Finance-Project) Repositories
 
 A Finance Transaction Normalization & Categorization System:
 
