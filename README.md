@@ -1,6 +1,6 @@
 # Hi, I'm Budi 👋
 
-### **Finance Operations → Fintech Systems | Aspiring Fintech Developer | Multilingual Problem-Solver**
+### **Finance Operations → Fintech Systems | Aspiring Fintech Engineering & Developer | Multilingual Problem-Solver**
 
 🌱 I’m transitioning into **tech**, building on my experience in **high volume financial systems**, **risk analysis**, and **data accuracy** with a growing skillset in **web and software development**. I aim to combine my financial background with technical skill to create tools that improve accuracy, efficiency, and collaboration.
 
