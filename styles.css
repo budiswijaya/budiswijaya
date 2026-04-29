@@ -22,8 +22,8 @@
   --white: #fff;
 
   /* Font-size family and Line Height */
-  --font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, system-ui,
-    sans-serif;
+  --font-family:
+    "Space Grotesk", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   --h1-X: 700 4rem/1em var(--font-family);
   --h2-X: 600 3rem/1.2em var(--font-family);
   --h3-X: 600 2.25rem/1.2em var(--font-family);
@@ -135,7 +135,7 @@ a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--white);
+  color: var(--gray50);
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.2s ease;
@@ -259,4 +259,165 @@ a {
 .mode.active {
   background: var(--gray20);
   border-color: var(--gray70);
+}
+
+/* ===== NEW STYLES FOR PORTFOLIO ENHANCEMENT ===== */
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInHighlight {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+/* Featured project styling */
+.featured-project {
+  border: 2px solid var(--primary-color);
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.featured-project::before {
+  content: "⭐ Featured";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 10;
+}
+
+/* Enhanced project card hover effects */
+.project-card {
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.02);
+}
+
+/* Failure case block styling */
+.failure-case-block {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe5e5 100%);
+  border-left: 4px solid #ef4444;
+  border-radius: 8px;
+  padding: var(--padding-l);
+  margin: var(--margin-l) 0;
+  animation: slideInHighlight 0.5s ease-out;
+}
+
+.failure-case-header {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: var(--margin-m);
+  color: #991b1b;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.failure-case-content {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+.failure-input,
+.failure-expected,
+.failure-before,
+.failure-causes,
+.failure-fix,
+.failure-result {
+  margin-bottom: var(--margin-m);
+}
+
+.failure-input code {
+  background: #fed7d7;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-weight: 600;
+  color: #991b1b;
+}
+
+.failure-badge {
+  background: #fecaca;
+  color: #991b1b;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.success-badge {
+  background: #bbf7d0;
+  color: #166534;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.cause-list {
+  margin-left: var(--margin-m);
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.cause-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Semantic list styling */
+.job ul {
+  margin-left: 1.5rem;
+}
+
+.job ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Project description emphasis */
+.project-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Code block styling */
+code {
+  font-family: "Courier New", "Courier", monospace;
+  font-size: 0.9em;
 }

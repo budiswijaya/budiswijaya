@@ -24,8 +24,12 @@
       <header>
         <h1 class="title">Budi Saputra Wijaya</h1>
         <p>
-          Finance Operations → Fintech Systems | Aspiring Fintech Engineering &
-          Developer | Multilingual Problem-Solver
+          Fintech Engineering & Developer focused on Failure Analysis & System
+          Reliability<br />
+          <span style="color: var(--gray50); font-size: 0.95rem"
+            >I analyze why systems fail in production — not just how they
+            work</span
+          >
         </p>
         <div class="connect">
           <a
@@ -94,22 +98,155 @@
       </header>
 
       <main class="content">
+        <h2>What I Do</h2>
+        <section class="job">
+          <ul style="list-style-position: inside; padding-left: 0">
+            <li>
+              Identify and resolve hidden data inconsistencies in backend
+              systems
+            </li>
+            <li>Trace root causes across multi-stage processing pipelines</li>
+            <li>
+              Diagnose classification failures caused by real-world noisy inputs
+            </li>
+            <li>Validate system behavior through API-level testing</li>
+            <li>
+              Improve reliability of data processing under production conditions
+            </li>
+          </ul>
+        </section>
+
+        <section class="incidents">
+          <h2>Debugging & Incident Analysis</h2>
+
+          <div class="job">
+            <h3>
+              Incorrect Transaction Categorization Due to Normalization Failure
+            </h3>
+            <p>
+              Debugged classification failure caused by noisy input "MCDONALDS
+              #123".
+            </p>
+            <ul>
+              <li>
+                Identified keyword conflict and priority-based misclassification
+              </li>
+              <li>Analyzed deterministic rule limitations</li>
+              <li>Proposed multi-intent classification improvements</li>
+            </ul>
+            <a
+              href="https://github.com/budiswijaya/Finance-Project/blob/main/Simulation%20of%20Failure%20Incident%20and%20Fix%20Report/Incorrect%20Transaction%20Categorization%20Due%20to%20Normalization%20Failure%20Incident%20(V1).md"
+              target="_blank"
+            >
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              Source
+            </a>
+          </div>
+
+          <div class="job">
+            <h3>
+              Incorrect Categorization Due to Multi-Intent Transaction Notes
+            </h3>
+            <p>
+              Investigated a case where "GRABFOOD MCDONALDS" was incorrectly
+              categorized as Transportation despite no system errors.
+            </p>
+            <ul>
+              <li>Traced issue to missing keyword and weak preprocessing</li>
+              <li>Validated behavior through API testing</li>
+              <li>Improved normalization and keyword coverage</li>
+            </ul>
+            <a
+              href="https://github.com/budiswijaya/Finance-Project/blob/main/Simulation%20of%20Failure%20Incident%20and%20Fix%20Report/Incorrect%20Categorization%20Due%20to%20Multi-Intent%20Transaction%20Notes%20Incident%20Report%20(V1).md"
+              target="_blank"
+            >
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              Source
+            </a>
+          </div>
+        </section>
+
+        <hr class="section-divider" />
+
         <section class="projects">
           <h2>Technical Learning & Projects</h2>
 
-          <div class="project-card">
+          <div class="project-card featured-project">
             <img
               src="https://raw.githubusercontent.com/budiswijaya/Finance-Project/main/1.png"
-              alt="Data Normalization & Categorization Engine"
+              alt="Transaction classification pipeline UI showing normalization step, keyword matching, and categorization output with success indicators"
             />
             <h3>Data Normalization & Categorization Engine Project</h3>
+            <p class="project-description">
+              Built a rule-based transaction classification pipeline and
+              investigated failure cases caused by noisy and multi-intent
+              inputs. Analyzed misclassification behavior, traced root causes
+              across normalization and keyword matching stages, and validated
+              improvements through API testing.
+            </p>
+
+            <div class="failure-case-block">
+              <div class="failure-case-header">
+                🔍 Failure Case: Real-World Noise
+              </div>
+              <div class="failure-case-content">
+                <div class="failure-input">
+                  <strong>Input:</strong> <code>GRABFOOD MCDONALDS</code>
+                </div>
+                <div class="failure-expected">
+                  <strong>Expected:</strong> Food
+                </div>
+                <div class="failure-before">
+                  <strong>Actual (Before):</strong>
+                  <span class="failure-badge">Transportation</span> ❌
+                </div>
+                <div class="failure-causes">
+                  <strong>Root Cause:</strong>
+                  <ul class="cause-list">
+                    <li>Missing keyword mapping for restaurant chains</li>
+                    <li>Weak normalization allowed priority conflicts</li>
+                  </ul>
+                </div>
+                <div class="failure-fix">
+                  <strong>Fix Applied:</strong>
+                  <ul class="cause-list">
+                    <li>Added comprehensive keyword coverage</li>
+                    <li>Improved preprocessing logic</li>
+                  </ul>
+                </div>
+                <div class="failure-result">
+                  <strong>Result:</strong>
+                  <span class="success-badge">Food</span> ✅
+                </div>
+              </div>
+            </div>
+
             <div class="tech-stack">
               <span>TypeScript</span>
               <span>Python</span>
               <span>React</span>
               <span>Node.js</span>
-              <span>Data Parsing</span>
-              <span>Categorization Engine</span>
+              <span>FastAPI</span>
+              <span>PostgreSQL</span>
+              <span>REST API</span>
             </div>
             <div class="project-links">
               <a
@@ -149,21 +286,22 @@
           <div class="project-card">
             <img
               src="https://raw.githubusercontent.com/budiswijaya/Game-Project/main/Snipaste_2025-09-08_19-23-09.png"
-              alt="Wild Ones Game"
+              alt="Wild Ones browser game showing character, terrain collision detection, and physics-based weapon mechanics"
             />
             <h3>Wild Ones Imitation Web Game Project</h3>
+
+            <p class="project-description">
+              Browser-based physics game prototype featuring collision
+              detection, gravity mechanics, and real-time player interaction.
+              <br />
+              You may need to adjust screen by CTRL with + or - when playing the
+              game. Keyboard => WASD to Move, Space to Jump, 123 to change
+              weapon. Mouse => Click and Drag to Shoot
+            </p>
             <div class="tech-stack">
               <span>HTML</span>
               <span>JavaScript</span>
-              <span
-                >You may need to adjust screen by CTRL with + or - when playing
-                the game</span
-              >
-              <span
-                >Keyboard => WASD to Move, Space to Jump, 123 to change
-                weapon</span
-              >
-              <span>Mouse => Click and Drag to Shoot</span>
+              <span>Canvas API</span>
             </div>
             <div class="project-links">
               <a
@@ -203,9 +341,14 @@
           <div class="project-card">
             <img
               src="https://raw.githubusercontent.com/budiswijaya/Learning-Journey/main/Learning-Journey.png"
-              alt="Learning Journey"
+              alt="Documentation repository showing system design concepts, debugging patterns, and engineering learning notes"
             />
-            <h3>Learning Journey Documentation</h3>
+            <h3>Engineering Learning & System Notes</h3>
+            <p class="project-description">
+              Documentation of system design concepts, debugging patterns, and
+              learning notes from building data processing and simulation
+              systems.
+            </p>
             <div class="tech-stack">
               <span>HTML</span>
               <span>CSS</span>
@@ -236,6 +379,22 @@
           </div>
         </section>
 
+        <h2>Key Insight</h2>
+        <section class="job">
+          <p>
+            Systems can be logically correct yet operationally wrong when
+            exposed to real-world data. My focus is identifying these gaps
+            through failure analysis, not just validating expected behavior.
+          </p>
+        </section>
+
+        <p class="project-impact">
+          Focused on identifying why systems fail under real-world data
+          conditions, not just building correct logic.
+        </p>
+
+        <hr class="section-divider" />
+
         <section class="experience">
           <h2>Career</h2>
           <div class="job">
@@ -247,6 +406,12 @@
               >
             </p>
             <p class="duration">Nov 2023 - Dec 2024</p>
+            <p>
+              • Oversaw daily financial operations and ensured accurate records
+              of monthly income and expenses. <br />
+              • Managed and secured funds, validated high-volume transactions,
+              and coordinated with management to improve operational efficiency.
+            </p>
           </div>
           <div class="job">
             <h3>Finance Officer - Multi Roles</h3>
@@ -257,6 +422,13 @@
               >
             </p>
             <p class="duration">Jan 2022 - Nov 2023</p>
+            <p>
+              • Monitored and validated high-volume transaction flows,
+              identifying inconsistencies and ensuring data accuracy in
+              financial systems. <br />
+              • Supported large-scale transaction processing and performed
+              validation checks to reduce risk and detect anomalies.
+            </p>
           </div>
           <div class="job">
             <h3>Engineer - Production Engineer</h3>
@@ -267,6 +439,12 @@
               >
             </p>
             <p class="duration">Jul 2021 - Dec 2021</p>
+            <p>
+              • Oversaw and optimized production processes and testing
+              equipment, identifying issues as they arose. <br />
+              • Diagnosed and resolved production system issues to maintain
+              testing throughput and product quality.
+            </p>
           </div>
           <div class="job">
             <h3>Assistant Manager - Import/Shipping Administration</h3>
@@ -276,18 +454,43 @@
               >
             </p>
             <p class="duration">Dec 2020 - May 2021</p>
+            <p>
+              • Assisted the manager in handling import tax, shipping, and legal
+              compliance. <br />
+              • Translated contracts and coordinated with stakeholders for
+              process efficiency.
+            </p>
+          </div>
+          <div class="job">
+            <h3>Part Time English Teacher & Internship Computer Technician</h3>
+            <p>
+              • Taught students from kindergarten to high school, focusing on
+              language proficiency and confidence building
+              <br />
+              • Hands-on repair of hardware, troubleshooting software, and
+              network maintenance.
+            </p>
           </div>
           <div class="job">
             <h3>Bachelor's - Chinese Language Education</h3>
-            <p class="company">
+            <p>
+              • Participants of Overseas Chinese Preschool Teacher Class in
+              Guangzhou Children's School 2019 – 2020<br />
               <a
                 href="https://raw.githubusercontent.com/budiswijaya/budiswijaya/main/Skripsi%20Budi%20final.pdf"
                 download="BudiSaputraWijaya_Bachelor's Thesis.pdf"
-                >Thesis: Comparison Analysis of Endocentric Phrase Between
+                >• Thesis: Comparison Analysis of Endocentric Phrase Between
                 English and Chinese Language
               </a>
             </p>
             <p class="duration">Jun 2016 - Sep 2020</p>
+          </div>
+          <div class="job">
+            <h3>
+              Vocational High School – Computer and Network Engineering (TKJ)
+            </h3>
+            <p>• Cisco Certified Network Associate (CCNA)</p>
+            <p class="duration">Jul 2013 - May 2016</p>
           </div>
         </section>
       </main>
