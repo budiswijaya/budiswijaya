@@ -8,8 +8,8 @@ function initTheme() {
 // Apply theme with safe fallbacks
 function applyTheme(theme) {
   const isDark = theme === "dark";
-  const bgColor = isDark ? "#2a2420" : "#f5f1ed";
-  const textColor = isDark ? "#f5f1ed" : "#2a2420";
+  const bgColor = isDark ? "#2a2420" : "#473a0f";
+  const textColor = isDark ? "#473a0f" : "#2a2420";
 
   document.body.style.background = bgColor;
   document.body.style.color = textColor;
